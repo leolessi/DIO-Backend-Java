@@ -20,6 +20,20 @@ Como adicionar uma branch local para o remoto:
 3. Subir para o remoto
 	git push -u origin nova-branch-local
 
+DICA: Verificar se a branch local está rastreando alguma remota com:
+	git branch -vv
+     Retorna:
+		main            1a2b3c4 [origin/main] Último commit na branch
+	      * feature-login   5d6e7f8 [origin/feature-login] Implementa autenticação
+
+     	- * indica a branch que está atualmente ativa (em uso).
+	- 1a2b3c4 é o hash parcial do commit mais recente da branch.
+	- [origin/main] mostra qual branch remota a local está rastreando.
+	- Texto final mostra a mensagem do último commit
+
+
+
+
 OBS_1 -> Se você criou a branch local com o mesmo nome mas ainda não vinculou ao remoto, então pode usar:
 	git push -u origin nova-branch-local
 
