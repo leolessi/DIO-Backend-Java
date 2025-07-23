@@ -1,0 +1,31 @@
+Como adicionar um repositório local para um repositório remoto:
+
+1. Criar um novo repositório no GitHub. Deixar vazio para evitar conflitos.
+2. Iniciar o repo local
+	git init
+3. Adicionar os arquivos
+	'git add <nome do arquivo>' para um arquivo específico ou 'git add .' para adicionar todos os arquivos
+4. Commitar
+	git commit -m "commit"
+5. Conectar o repositório local ao GitHub
+	git remote add origin <url-do-repositório-remoto>
+6. Enviar os arquivos para o GitHub
+	git push -u origin main
+
+Como adicionar uma branch local para o remoto:
+
+1. Criar a nova branch local
+	git checkout -b nova-branch-local
+2. Alterações, commits, etc.
+3. Subir para o remoto
+	git push -u origin nova-branch-local
+
+OBS_1 -> Se você criou a branch local com o mesmo nome mas ainda não vinculou ao remoto, então pode usar:
+	git push -u origin nova-branch-local
+
+OBS_2 -> Se a branch remota foi criada com algum conteúdo (mesmo um README ou commit vazio), pode acontecer conflito. O Git pode te impedir de empurrar sua branch local dizendo que você precisa fazer um git pull antes.
+	git pull origin nova-branch-local --allow-unrelated-histories
+	Depois do merge, pode dar o push normalmente.
+
+OBS_3 -> Se você tem certeza de que o que está na sua branch local deve substituir o conteúdo remoto ( ***CUIDADO*** isso apaga o conteúdo do GitHub!), use:
+	git push -f origin feature-login
