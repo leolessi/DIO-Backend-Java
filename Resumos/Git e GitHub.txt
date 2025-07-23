@@ -1,4 +1,12 @@
-Como adicionar um repositório local para um repositório remoto:
+-- Comandos úteis
+	git status
+	git log
+	touch Resumos/Resumo_Aula1.txt (cria um arquivo Resumo_Aula1.txt na pasta Resumos)
+	touch 'Resumos Privados/.gitkeep' (cria um arquivo gitkeep - para o Git reconhecer um diretório vazio - na pasta Resumos Privados)
+	echo Resumos/ > .gitignore (gera o texto 'Resumos/' para o arquivo .gitignore, SOBRESCREVENDO seu conteúdo. Dessa forma, o arquivo .gitignore agora tem uma única linha: resumos/)
+	echo Resumos/ >> .gitignore (adiciona o texto 'Resumos/' sem apagar o conteúdo já existente)
+
+-- Como adicionar um repositório local para um repositório remoto:
 
 1. Criar um novo repositório no GitHub. Deixar vazio para evitar conflitos.
 2. Iniciar o repo local
@@ -12,7 +20,7 @@ Como adicionar um repositório local para um repositório remoto:
 6. Enviar os arquivos para o GitHub
 	git push -u origin main
 
-Como adicionar uma branch local para o remoto:
+-- Como adicionar uma branch local para o remoto:
 
 1. Criar a nova branch local
 	git checkout -b nova-branch-local
@@ -20,7 +28,7 @@ Como adicionar uma branch local para o remoto:
 3. Subir para o remoto
 	git push -u origin nova-branch-local
 
-DICA: Verificar se a branch local está rastreando alguma remota com:
+-- DICA: Verificar se a branch local está rastreando alguma remota com:
 	git branch -vv
      Retorna:
 		main            1a2b3c4 [origin/main] Último commit na branch
