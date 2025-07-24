@@ -51,3 +51,7 @@ OBS_2 -> Se a branch remota foi criada com algum conteúdo (mesmo um README ou c
 
 OBS_3 -> Se você tem certeza de que o que está na sua branch local deve substituir o conteúdo remoto ( ***CUIDADO*** isso apaga o conteúdo do GitHub!), use:
 	git push -f origin feature-login
+
+
+
+https://www.gitfluence.com/
