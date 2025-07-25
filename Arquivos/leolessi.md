@@ -27,6 +27,8 @@
 
 - Estou focado na construção do meu portfólio. Meu principal projeto foi o de conclusão de curso, um site completo para uma clínica de estética com área de administrador e cliente. Estou modificando-o para utilizar no meu portfólio pessoal.
 
+- <img align="center" alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> [Back-end de um Sistema de Gerenciamento Escolar](https://github.com/leolessi/backend-escola-faat): Projeto desenvolvido em Python para gerenciar informações de uma escola, incluindo alunos, professores e turmas.
+
 ### 🗺️ Conecte-se comigo
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/leolessi)
