@@ -1,14 +1,13 @@
 ### 👋  Prazer, me chamo Leonardo Lessi 👋
 
 🧶 **Sobre mim**
-- 🎓 Formado recentemente em Análise e Desenvolvimento de Sistemas.
-- 💼 Estou procurando minha primeira oportunidade na área.
-- 💻 Meu primeiro contato foi com Python. Na faculdade, fiz uma formação "full-stack", muito por conta do projeto de conclusão de curso.
+- 🎓 Formado recentemente em Análise e Desenvolvimento de Sistemas. Fiz uma formação "full-stack", muito por conta do projeto de conclusão de curso.
+- 💼 Procuro minha primeira oportunidade na área.
 
-- 👨‍💻 Estou construindo meu portfólio de Desenvolvimento Web. Meu principal projeto nessa área foi o de conclusão de curso, um site para uma clínica de estética com área de administrador e cliente.
+- 👨‍💻 Atualmente estou construindo meu portfólio de Desenvolvimento Web. Meu principal projeto nessa área foi o de conclusão de curso, um site para uma clínica de estética com área de administrador e cliente.
   - Utilizado EJS, CSS e Boostrap na parte do Front-end.
-  - Na parte do Back-end, foi utilizado Node.js (Express)
-  - MongoDB (Mongoose)
+  - Na parte do Back-end, foi utilizado Node.js (Express).
+  - MongoDB (Mongoose) como banco de dados.
   - Algumas das bibliotecas utilizadas foram bcrypt, jsonwebtoken, cookie-parser e FullCalendar.
 
 - 📚 Além disso, estou estudando Python visando a área de dados, Machine Learning e Inteligência Artificial. Na faculdade, fiz o Back-end completo em Python de um Sistema de Gerenciamento Escolar. 
@@ -29,7 +28,7 @@
 <img align="center" alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 </div>
 
-- [Back-end de um Sistema de Gerenciamento Escolar](https://github.com/leolessi/backend-escola-faat): Projeto desenvolvido em Python para gerenciar informações de uma escola, incluindo alunos, professores e turmas.
+- [Back-end de um Sistema de Gerenciamento Escolar](https://github.com/leolessi/backend-escola-faat): Projeto desenvolvido em Python para gerenciar informações de uma escola, incluindo alunos, professores e turmas. Também atuei como líder no projeto e em todo o desenvolvimento do sistema.
 
 ### ⚙️ Hard Skills
 
@@ -51,6 +50,8 @@
 
 ### 🗺️ Conecte-se comigo
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/leolessi)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leonardolessi)
 
-[![DIO](https://img.shields.io/badge/DIO-121214?style=for-the-badge&logo=dio&logoColor=white)](https://web.dio.me/users/leonardolessi)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/leolessi)
+
+[![DIO](https://img.shields.io/badge/DIO-0077B5?style=for-the-badge&logoColor=white)](https://web.dio.me/users/leonardolessi)
